@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /reserve.html
-
-Sitemap: https://worldlinetuning.net/sitemap.xml
