@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html lang="ja"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>お賽銭はいくら入れたらいい？金額の考え方｜世界線調律所</title><meta content="お賽銭はいくら入れたらいいのか。金額に正解はあるのか。5円・50円・千円などの考え方、神社の維持への配慮、感謝として納める私なりの考えを書きます。" name="description"/><link href="https://worldlinetuning.net/article32.html" rel="canonical"/><meta content="index,follow" name="robots"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600;700&amp;family=Zen+Kaku+Gothic+New:wght@400;500;700&amp;display=swap" rel="stylesheet"/><style>
+:root{
+  --bg:#fffdf9; --panel:#f6f2ea; --line:#e7e0d3;
+  --ink:#33302b; --ink-soft:#7a746a; --head:#2a2620;
+  --gold:#9c7c46; --gold-deep:#7c6035;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0; color:var(--ink); background:var(--bg);
+  font-family:"Zen Kaku Gothic New","Noto Sans JP",system-ui,sans-serif;
+  font-size:17px; line-height:2.0; letter-spacing:.02em;}
+a{color:var(--gold-deep)}
+
+nav.site{position:sticky; top:0; z-index:20; display:flex; align-items:center;
+  gap:14px; padding:13px 22px; background:rgba(255,253,249,.95);
+  backdrop-filter:blur(8px); border-bottom:1px solid var(--line)}
+nav.site .brand{font-family:"Shippori Mincho",serif; color:var(--head); font-size:18px;
+  letter-spacing:.1em; margin-right:auto; text-decoration:none; font-weight:600}
+nav.site a.book{color:#fff; background:var(--gold); padding:8px 18px; border-radius:30px;
+  text-decoration:none; font-size:13.5px; letter-spacing:.04em}
+nav.site a.book:hover{background:var(--gold-deep); color:#fff}
+.nav-toggle{display:none}
+.nav-burger{display:inline-flex; flex-direction:column; justify-content:center; gap:6px;
+  width:30px; height:24px; cursor:pointer}
+.nav-burger span{display:block; width:24px; height:2px; border-radius:2px; background:var(--head); transition:.25s}
+.nav-toggle:checked ~ .nav-burger span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+.nav-toggle:checked ~ .nav-burger span:nth-child(2){opacity:0}
+.nav-toggle:checked ~ .nav-burger span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+.nav-links{position:absolute; top:100%; left:0; right:0; background:rgba(255,253,249,.99);
+  border-bottom:1px solid var(--line); box-shadow:0 10px 24px rgba(0,0,0,.06);
+  display:flex; flex-direction:column; max-height:0; overflow:hidden; transition:max-height .35s ease}
+.nav-toggle:checked ~ .nav-links{max-height:80vh; overflow-y:auto}
+nav.site .nav-links a{padding:13px 26px; border-top:1px solid var(--line);
+  color:var(--ink); text-decoration:none; font-size:15px; letter-spacing:.03em}
+nav.site .nav-links a:hover{background:var(--panel); color:var(--gold-deep)}
+nav.site .nav-links .nav-group{padding:15px 26px 5px; border-top:1px solid var(--line);
+  font-family:"Shippori Mincho",serif; color:var(--gold-deep); font-size:12.5px; letter-spacing:.1em}
+nav.site .nav-links a.sub{padding-left:42px; font-size:13.5px; color:var(--ink-soft); border-top:1px dashed var(--line)}
+
+main{max-width:740px; margin:0 auto; padding:50px 24px 20px}
+.article main{max-width:720px}
+
+h1,h2,h3{font-family:"Shippori Mincho",serif; color:var(--head); font-weight:600; line-height:1.55}
+h1{font-size:27px; margin:.2em 0 .9em; text-align:center; letter-spacing:.04em}
+h2{font-size:21px; margin:2.4em 0 .9em; padding-bottom:.35em; border-bottom:1px solid var(--line)}
+h3{font-size:18px; margin:1.8em 0 .6em; color:var(--gold-deep)}
+p{margin:1.05em 0}
+strong{color:var(--head); font-weight:700}
+hr{border:none; height:1px; margin:2.6em 0; background:var(--line)}
+
+blockquote{margin:1.6em 0; padding:18px 22px; background:var(--panel);
+  border-left:3px solid var(--gold); border-radius:6px;
+  font-family:"Shippori Mincho",serif; color:#4a4339; line-height:1.95}
+ul,ol{margin:1.05em 0; padding-left:1.4em}
+li{margin:.45em 0}
+ul li::marker,ol li::marker{color:var(--gold)}
+
+.lead{color:var(--ink-soft); font-size:16px}
+
+.cta-wrap{text-align:center; margin:2em 0}
+a.cta{display:inline-block; padding:15px 42px; border-radius:34px; text-decoration:none;
+  font-family:"Shippori Mincho",serif; letter-spacing:.1em; color:#fff; font-weight:600;
+  background:var(--gold); box-shadow:0 6px 18px rgba(156,124,70,.25); transition:.25s}
+a.cta:hover{background:var(--gold-deep); transform:translateY(-2px)}
+
+.cta-wrap{text-align:center; margin:2.6em 0 0}
+a.cta{display:inline-block; padding:15px 40px; border-radius:34px; text-decoration:none;
+  font-family:"Shippori Mincho",serif; letter-spacing:.08em; color:#fff; font-weight:600;
+  background:var(--gold); box-shadow:0 6px 18px rgba(156,124,70,.25); transition:.25s}
+a.cta:hover{background:var(--gold-deep); transform:translateY(-2px)}
+
+.related{margin:2.4em 0 0; padding:20px 22px; background:var(--panel);
+  border:1px solid var(--line); border-radius:8px}
+.related .related-ttl{font-family:"Shippori Mincho",serif; color:var(--gold-deep);
+  font-size:14px; letter-spacing:.08em; margin-bottom:10px}
+.related a{display:block; padding:7px 0; color:var(--ink); text-decoration:none;
+  font-size:15px; border-top:1px dashed var(--line)}
+.related a:first-of-type{border-top:none}
+.related a:hover{color:var(--gold-deep)}
+
+.author{margin:2.4em 0 0; padding:18px 20px; background:var(--panel);
+  border:1px solid var(--line); border-radius:8px; font-size:14.5px; line-height:1.85; color:var(--ink-soft)}
+.author strong{color:var(--head)}
+
+footer.site{max-width:740px; margin:46px auto 0; padding:28px 24px 56px;
+  border-top:1px solid var(--line); color:var(--ink-soft); font-size:13px; text-align:center}
+footer.site a{color:var(--ink-soft); text-decoration:none; margin:0 6px}
+footer.site a:hover{color:var(--gold-deep)}
+footer.site .legal{margin-top:10px; font-size:12.5px}
+.disclaim{font-size:12px; color:#a59e90; margin-top:14px; line-height:1.7}
+
+@media(max-width:560px){
+  nav.site{gap:6px 13px; padding:11px 16px}
+  nav.site a{font-size:12.5px}
+  h1{font-size:23px}
+}
+
+.table-wrap{overflow-x:auto; margin:1.6em 0;}
+table{width:100%; border-collapse:collapse; font-size:14.5px; line-height:1.75; background:#fff;}
+th,td{border:1px solid var(--line); padding:8px 10px; vertical-align:top;}
+th{background:var(--panel); color:var(--head); font-weight:700;}
+.series-note{margin:.5em auto 2.2em; text-align:center; color:var(--ink-soft); font-size:14px; letter-spacing:.04em;}
+
+/* wt v17: fixed global header */
+:root{--wt-fixed-header-height:64px;}
+html{scroll-padding-top:calc(var(--wt-fixed-header-height) + 16px)!important;}
+body{padding-top:var(--wt-fixed-header-height)!important;}
+nav.site{
+  position:fixed!important;
+  top:0!important;
+  left:0!important;
+  right:0!important;
+  width:100%!important;
+  min-height:var(--wt-fixed-header-height)!important;
+  z-index:9999!important;
+  background:rgba(255,253,249,.96)!important;
+  -webkit-backdrop-filter:blur(8px)!important;
+  backdrop-filter:blur(8px)!important;
+}
+@media (max-width:820px){
+  :root{--wt-fixed-header-height:58px;}
+  .nav-links{max-height:0;}
+  .nav-toggle:checked ~ .nav-links{
+    max-height:calc(100dvh - var(--wt-fixed-header-height))!important;
+    overflow-y:auto!important;
+  }
+}
+.article-inline-link{margin:1.1em 0 1.7em; color:var(--gold-deep); font-weight:500;} .article-inline-link a{color:var(--gold-deep); text-decoration:none; border-bottom:1px solid rgba(168,124,42,.35);} .article-inline-link a:hover{border-bottom-color:var(--gold-deep);} .article-subtitle{margin:-1.2em auto 2.2em; text-align:center; color:var(--ink-soft); font-size:16px; letter-spacing:.04em;} </style><style id="seo-category-style">.series-note a{color:var(--ink-soft);text-decoration:none;border-bottom:1px solid rgba(156,124,70,.35);}.series-note a:hover{color:var(--gold-deep);border-bottom-color:var(--gold-deep);}.related a.related-hub-link{color:var(--gold-deep);font-weight:700;}@media(min-width:821px){nav.site .nav-links .nav-group,nav.site .nav-links a.sub{display:none;}}</style><meta content="article" property="og:type"/><meta content="世界線調律所" property="og:site_name"/><meta content="お賽銭はいくら入れたらいい？金額の考え方｜世界線調律所" property="og:title"/><meta content="お賽銭はいくら入れたらいいのか。金額に正解はあるのか。5円・50円・千円などの考え方、神社の維持への配慮、感謝として納める私なりの考えを書きます。" property="og:description"/><meta content="https://worldlinetuning.net/article32.html" property="og:url"/><meta content="ja_JP" property="og:locale"/><meta content="神社参拝とスピリチュアル" property="article:section"/><script id="seo-article-jsonld" type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"お賽銭はいくら入れたらいい？｜お賽銭の話①","description":"お賽銭はいくら入れたらいいのか。金額に正解はあるのか。5円・50円・千円などの考え方、神社の維持への配慮、感謝として納める私なりの考えを書きます。","url":"https://worldlinetuning.net/article32.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://worldlinetuning.net/article32.html"},"datePublished":"2026-07-01","dateModified":"2026-07-01","articleSection":"神社参拝とスピリチュアル","author":{"@type":"Person","name":"白川愁士"},"publisher":{"@type":"Organization","name":"世界線調律所","url":"https://worldlinetuning.net/"},"keywords":["お賽銭 いくら","お賽銭 金額","お賽銭 意味","お賽銭 効果","お賽銭 5円","神社参拝","感謝"]}</script><script id="seo-breadcrumb-jsonld" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://worldlinetuning.net/"},{"@type":"ListItem","position":2,"name":"コラム","item":"https://worldlinetuning.net/columns.html"},{"@type":"ListItem","position":3,"name":"神社参拝とスピリチュアル","item":"https://worldlinetuning.net/category-shrine.html"},{"@type":"ListItem","position":4,"name":"お賽銭はいくら入れたらいい？｜お賽銭の話①","item":"https://worldlinetuning.net/article32.html"}]}</script>
+<style id="wt-header-unification-fix">
+/* 全ページ共通ヘッダー：PCは横並び、スマホのみハンバーガー */
+@media (min-width:821px){
+  nav.site{position:fixed!important;top:0!important;left:0!important;right:0!important;width:100%!important;min-height:var(--wt-fixed-header-height,64px)!important;z-index:9999!important;display:flex!important;align-items:center!important;gap:14px!important;padding:15px clamp(18px,4vw,44px)!important;background:rgba(255,253,249,.96)!important;border-bottom:1px solid var(--line)!important;}
+  nav.site .brand{margin-right:auto!important;}
+  nav.site .nav-toggle,nav.site .nav-burger{display:none!important;}
+  nav.site .nav-links{position:static!important;display:flex!important;flex-direction:row!important;align-items:center!important;justify-content:flex-end!important;gap:20px!important;max-height:none!important;overflow:visible!important;width:auto!important;margin:0!important;padding:0!important;border:0!important;box-shadow:none!important;background:transparent!important;}
+  nav.site .nav-links a{display:inline!important;margin:0!important;padding:0!important;border:0!important;font-size:14px!important;line-height:1.5!important;white-space:nowrap!important;writing-mode:horizontal-tb!important;text-orientation:mixed!important;color:var(--ink-soft)!important;text-decoration:none!important;}
+  nav.site .nav-links .nav-group,nav.site .nav-links a.sub{display:none!important;}
+}
+@media (max-width:820px){
+  nav.site .nav-burger{display:inline-flex!important;}
+  nav.site .nav-links{writing-mode:horizontal-tb!important;text-orientation:mixed!important;}
+}
+</style>
+<meta content="お賽銭 いくら,お賽銭 金額,お賽銭 意味,お賽銭 効果,お賽銭 5円,神社参拝,感謝,世界線調律所" name="keywords"/>
+<style id="wt-robust-header-fix-20260713">
+nav.site,nav.site *{writing-mode:horizontal-tb!important;text-orientation:mixed!important;}
+nav.site{position:fixed!important;top:0!important;left:0!important;right:0!important;width:100%!important;min-height:var(--wt-fixed-header-height,64px)!important;height:auto!important;z-index:9999!important;display:flex!important;flex-direction:row!important;align-items:center!important;justify-content:flex-start!important;gap:14px!important;padding:15px clamp(18px,4vw,44px)!important;background:rgba(255,253,249,.96)!important;border-bottom:1px solid var(--line,#e7e0d3)!important;-webkit-backdrop-filter:blur(8px)!important;backdrop-filter:blur(8px)!important;}
+nav.site a{display:inline-flex!important;align-items:center!important;width:auto!important;height:auto!important;margin:0!important;line-height:1.5!important;white-space:nowrap!important;text-decoration:none!important;}
+nav.site .brand{margin-right:auto!important;color:var(--head,#2a2620)!important;font-family:"Shippori Mincho",serif!important;font-size:19px!important;font-weight:600!important;letter-spacing:.1em!important;}
+nav.site a.book{flex:0 0 auto!important;padding:8px 18px!important;border-radius:30px!important;color:#fff!important;background:var(--gold,#9c7c46)!important;font-size:13.5px!important;letter-spacing:.04em!important;}
+nav.site .nav-toggle{display:none!important;}
+@media (min-width:821px){nav.site .nav-burger{display:none!important;}nav.site .nav-links{position:static!important;display:flex!important;flex-direction:row!important;align-items:center!important;justify-content:flex-end!important;gap:20px!important;width:auto!important;max-height:none!important;margin:0!important;padding:0!important;overflow:visible!important;border:0!important;box-shadow:none!important;background:transparent!important;}nav.site .nav-links a{display:inline-flex!important;padding:0!important;border:0!important;color:var(--ink-soft,#7a746a)!important;font-size:14px!important;}nav.site .nav-links .nav-group,nav.site .nav-links a.sub{display:none!important;}}
+@media (max-width:820px){nav.site{min-height:var(--wt-fixed-header-height,58px)!important;padding:11px 16px!important;}nav.site .brand{font-size:17px!important;}nav.site .nav-burger{display:inline-flex!important;flex:0 0 auto!important;}nav.site .nav-links{position:absolute!important;top:100%!important;left:0!important;right:0!important;display:flex!important;flex-direction:column!important;align-items:stretch!important;gap:0!important;max-height:0!important;overflow:hidden!important;background:rgba(255,253,249,.99)!important;border-bottom:1px solid var(--line,#e7e0d3)!important;box-shadow:0 10px 24px rgba(0,0,0,.06)!important;}nav.site .nav-toggle:checked ~ .nav-links{max-height:calc(100dvh - var(--wt-fixed-header-height,58px))!important;overflow-y:auto!important;}nav.site .nav-links a{display:flex!important;padding:13px 26px!important;border-top:1px solid var(--line,#e7e0d3)!important;color:var(--ink,#33302b)!important;font-size:15px!important;}}
+</style></head><body class="article"><nav class="site"><a class="brand" href="index.html">世界線調律所</a><a class="book" href="reserve.html">ご予約</a><input aria-hidden="true" class="nav-toggle" id="navtoggle" type="checkbox"/><label aria-label="メニューを開く" class="nav-burger" for="navtoggle"><span></span><span></span><span></span></label><div class="nav-links"><a href="index.html">ホーム</a><a href="about.html">世界線調律所とは</a><a href="profile.html">所長プロフィール</a><a href="menu.html">ご提供メニュー</a><a href="columns.html">コラム</a><a href="reserve.html">ご予約</a></div></nav><main><div class="series-note"><a aria-label="カテゴリ：神社参拝とスピリチュアル" href="category-shrine.html">神社参拝とスピリチュアル</a></div><h1>お賽銭はいくら入れたらいい？｜お賽銭の話①</h1><p>神社へ行ったら、お賽銭はいくら入れたらいいのか？<br/>
+そう検索して、この記事にたどり着いた方もいらっしゃるかもしれません。<br/>
+ここでは、お賽銭について、私なりの考えを書いてみます。</p>
+<p>先に言ってしまうと、金額に「正解」はありません。</p>
+<p>神様がいるとしても、実体を持たない神様が、お金を使うことはできません。<br/>
+だから、神様がお金を受け取って喜ぶ、というのは、私にはピンときません。<br/>
+神様は、お金なんて要らないんじゃないかな、と個人的には思います。</p>
+<p>ただ、神様が祀られている神社のほうは、現実にある存在です。<br/>
+社殿の修繕、境内の掃除、樹木の手入れ。<br/>
+神社を保つには、お金がかかる。<br/>
+だから神社からすれば、お賽銭は多いほうがありがたい。<br/>
+これは、現実的に想像できます。
+神様の家がお金できれいに保たれているなら、それは神様にとっても、喜ばしいことでしょう。</p>
+<hr/>
+<h2>お賽銭は「お願いの料金」なのか？</h2>
+<p>神社に行く人の多くは、お願いをしに行っているのかもしれません。<br/>
+私自身、今でこそ感謝を伝えに行っていますが、以前は神社といえばお願いに行く所でした。<br/>
+ですから、お願いすること自体を、否定したいわけではありません。</p>
+<p>お賽銭を「願いを叶えてもらうための料金」みたいに思っていた時期が、私にもありました。
+でも、本当に叶えたいお願いの対価としての料金だったら、小銭で良いのでしょうか、という話もあります（笑）
+「五円はご縁だから良い」と言いますが、円が導入された頃の五円はそれなりの大金でした。
+それを聞いたとき、五円を入れる考えも変わってきました。</p>
+<p>「これだけ入れたんだから、叶えてほしい」。そう思って、ここぞというお願いは奮発する。
+普段は、五円は「ご縁」で縁起がいい。以前の私はそんな感覚でしたし、それが悪いとも思いません。
+ただ、数えきれないほど神社に通って、参拝が日常になってみると、感覚が変わってきた。それだけの話です。</p>
+<p>そして、実はお賽銭と見返りの話には、もっと深いレイヤーもあります。
+それはまた別の機会に話したいと思います。</p>
+<hr/>
+<h2>いろいろな考え方がある</h2>
+<p>「いくらがいいか」は、人によって様々な意見があります。</p>
+<p>ひとつは、語呂合わせや縁起で選ぶ考え方。<br/>
+五円は「ご縁」、四十五円は「始終ご縁」、百十五円は「いいご縁」。<br/>
+百十五円は風水でも縁起のいい数とされて人氣があるみたいです。<br/>
+金額に意味を持たせて、参拝を楽しむのも良いと思います。<br/>
+語呂合わせは伝統的な日本文化ですし、楽しくて良いと思います。</p>
+<p>もうひとつは、「決まりはない、氣持ちが大事」という考え方。<br/>
+神社本庁の解説でも、お賽銭にはもともと正式に決められた額はないとされているそうです。<br/>
+米などのお供えが時代とともにお金に変わったもので、語呂より、感謝を込めて丁重にお供えすることのほうが大事だ、と多くの神職の方はおっしゃいます。</p>
+<p>現実的に金額を考える人もいます。<br/>
+神社の実情に詳しい方は、硬貨の入金に手数料がかかる今、一円玉や五円玉ばかり入れるのは、かえって神社の負担になることもある、とおっしゃっていました。<br/>
+「最低でも五十円から」という目安です。<br/>
+手数料についても考えた配慮としての金額の話で、なるほどなと思いました。</p>
+<p>普段は控えめでも、ここぞというときは思い切って大きく納める、という人もいます。<br/>
+あと、そもそもお賽銭は無理にしなくていい、手を合わせるだけでも参拝は成り立つ、という考え方もあります。<br/>
+現在の私はこちらの意見に近いです。</p>
+<p>どれも一理あって良いと思います。
+自分が神、他人も神ですから、八百万の意見があって良いでしょう。
+だから、自分がそうしたいと思った額が良い、というのが結論です。</p>
+<p>私自身は、神社巡拝ヒーラーを名乗っているくらいですから…
+摂社や末社も含めて、毎週20社以上は普通に参拝しておりますので、毎回お賽銭箱に一万円とか入れていたら、破産します（笑）</p>
+<hr/>
+<h2>それでもお賽銭が「数倍になって返ってくる」感覚はある</h2>
+<p>こう書くと、「じゃあお賽銭は神社のための募金箱と同じか？」と思われるかもしれません。</p>
+<p>そうではないと私は思っています。
+お賽銭は、見返りのまったくないものに、氣持ちよくお金を手放せる自分であることを確定させる行為です。
+自分が現実的に行動したという事実によって、意識は確定します。</p>
+<p>何の対価も求めずに、ただ場への感謝としてお金を手放せる自分であることを意識する行為として、お賽銭は自分を整える行為だとも思っています。</p>
+<p>そして、エゴや現実と結びつきやすい象徴であるお金を、見返りなく手放せるという整った意識は、結果として周波数の高い現実を引き寄せます。</p>
+<p>それがお金で返ってくることもあれば、素晴らしい体験として返ってくることもあると思っているのです。</p>
+<hr/>
+<h2>結局、いくらが良いのか？</h2>
+<p>先にお伝えしたとおり、神様はお金が必要ない存在です。</p>
+<p>だから、お賽銭はいくらでも大丈夫だと思いますし、お賽銭を入れなくても大丈夫です。
+人それぞれ、無理のない範囲で自分が良いと思った金額を入れるのが良いと思います。</p>
+<p>でも、お金という現実的なものである以上、金額は多いに越したことはない（笑）
+これが私の結論です。</p>
+<hr/>
+<p><em>このコラムは、お金と意識の関係を扱う読みものの一部です。「お金は意識の状態を映すいちばん正直な指標である」というテーマは、<a href="category-money-fortune.html">お金のカテゴリー</a>や<a href="money.html">金運調律セッションのご案内</a>でも書いています。</em></p>
+<p><em>※変化の現れ方には個人差があります。特定の金額や行為が特定の結果をもたらすことを保証するものではありません。</em></p>
+<h2>関連記事</h2><div class="related"><a class="related-hub-link" href="category-shrine.html">「神社参拝とスピリチュアル」の記事一覧を見る</a><a href="article33.html">お賽銭をしないで参拝してもいい？｜お賽銭の話②</a><a href="article34.html">お賽銭の見返りはあるの？｜お賽銭の話③</a><a href="article35.html">神社で何をお願いすればいいか？</a></div><hr/><div class="author"><strong>著者｜白川愁士（世界線調律所 所長／神社巡拝ヒーラー）</strong><br/>不動産投資家。お金を追い求めた末に、神社参拝が日常となり、結果的に「神社巡拝ヒーラー」となった。現在は三位一体調律（トリニティヒーリング）で心・身体・現実（お金の流れ）を整えている。宅建士・FP保有。 ▶ <a href="profile.html">プロフィール</a></div></main><footer class="site"><div><a href="index.html">ホーム</a>・<a href="about.html">世界線調律所とは</a>・<a href="profile.html">この世界線に至るまで</a>・<a href="menu.html">ご提供メニュー</a>・<a href="specialmenu.html">不動産 位相調律</a>・<a href="money.html">金運調律セッション</a>・<a href="reserve.html">ご予約</a></div><div class="legal"><a href="tokusho.html">特定商取引法に基づく表記</a>・<a href="terms.html">利用規約・プライバシーポリシー</a></div><div style="margin-top:12px">© 世界線調律所　Worldline Tuning Institute</div><div class="disclaim">※セッションの効果や変化の現れ方には個人差があります。医療行為ではありません。</div></footer></body></html>
